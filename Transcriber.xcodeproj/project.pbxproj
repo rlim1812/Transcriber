@@ -13,6 +13,9 @@
 		37067F1B1D7DDDF000752743 /* Transcriber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37067F191D7DDDF000752743 /* Transcriber.xcdatamodeld */; };
 		37067F1D1D7DDDF000752743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37067F1C1D7DDDF000752743 /* Assets.xcassets */; };
 		37067F201D7DDDF000752743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37067F1E1D7DDDF000752743 /* LaunchScreen.storyboard */; };
+		37067F281D7DE7EC00752743 /* TranscriptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37067F271D7DE7EC00752743 /* TranscriptionsTableViewController.swift */; };
+		37D7A65D1D7F3E4E0011DC0E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D7A65C1D7F3E4E0011DC0E /* Utilities.swift */; };
+		37D7A65F1D7F45740011DC0E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D7A65E1D7F45740011DC0E /* RecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		37067F1C1D7DDDF000752743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37067F1F1D7DDDF000752743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37067F211D7DDDF000752743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37067F271D7DE7EC00752743 /* TranscriptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranscriptionsTableViewController.swift; sourceTree = "<group>"; };
+		37D7A65C1D7F3E4E0011DC0E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		37D7A65E1D7F45740011DC0E /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				37067F121D7DDDF000752743 /* AppDelegate.swift */,
 				37067F141D7DDDF000752743 /* ViewController.swift */,
 				37067F161D7DDDF000752743 /* Main.storyboard */,
+				37D7A65E1D7F45740011DC0E /* RecordViewController.swift */,
+				37D7A65C1D7F3E4E0011DC0E /* Utilities.swift */,
+				37067F271D7DE7EC00752743 /* TranscriptionsTableViewController.swift */,
 				37067F1C1D7DDDF000752743 /* Assets.xcassets */,
 				37067F1E1D7DDDF000752743 /* LaunchScreen.storyboard */,
 				37067F211D7DDDF000752743 /* Info.plist */,
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37067F281D7DE7EC00752743 /* TranscriptionsTableViewController.swift in Sources */,
 				37067F151D7DDDF000752743 /* ViewController.swift in Sources */,
 				37067F1B1D7DDDF000752743 /* Transcriber.xcdatamodeld in Sources */,
+				37D7A65F1D7F45740011DC0E /* RecordViewController.swift in Sources */,
+				37D7A65D1D7F3E4E0011DC0E /* Utilities.swift in Sources */,
 				37067F131D7DDDF000752743 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Transcriber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanlim.Transcriber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Transcriber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanlim.Transcriber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +315,7 @@
 				37067F261D7DDDF000752743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
